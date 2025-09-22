@@ -1,2 +1,4 @@
 ## 🎥 Demo
-[▶ Watch Demo Video](./demo/SLSdemo.mp4)
+
+![Demo](./demo/SLSdemo.gif)
+

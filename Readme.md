@@ -40,4 +40,4 @@ python test.py --path_checkpoints ./checkpoints/fold*/best.ckpt \
                --path_image_test x_test.npy --path_label_test y_test.npy \
                --gradcam --gradcam_indices 1 5
 ```
-#####⚠️ Note: The full code is not publicly available until our paper is published. After publication, the code will be released here.”
+⚠️ Note: The full code is not publicly available until our paper is published. After publication, the code will be released here.”

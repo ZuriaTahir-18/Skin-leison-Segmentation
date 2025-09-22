@@ -23,7 +23,7 @@ This project presents **KSFormer**, a skin lesion segmentation model that combin
 
 ### 🏋️ Training
 
-K-Fold cross validation (default 5 folds) using PyTorch Lightning.
+- K-Fold cross validation (default 5 folds) using PyTorch Lightning.
 ```bash
 python train.py --path_image_train x_train.npy --path_label_train y_train.npy \
                 --path_image_test x_test.npy --path_label_test y_test.npy \
@@ -32,9 +32,9 @@ python train.py --path_image_train x_train.npy --path_label_train y_train.npy \
 
 ### ✅ Testing & Visualization
 
-Evaluates on test set, averages metrics across folds.
+- Evaluates on test set, averages metrics across folds.
 
-Supports Grad-CAM and sample segmentation outputs.
+- Supports Grad-CAM and sample segmentation outputs.
 ```bash
 python test.py --path_checkpoints ./checkpoints/fold*/best.ckpt \
                --path_image_test x_test.npy --path_label_test y_test.npy \
